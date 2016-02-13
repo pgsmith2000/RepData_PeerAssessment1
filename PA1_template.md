@@ -10,6 +10,10 @@ library(dplyr)
 library(lubridate)
 library(ggplot2)
 library(lattice)
+
+opts_chunk$set(dev="png", 
+               dev.args=list(type="cairo"),
+               dpi=96)
 ```
 
 ## Loading and preprocessing the data
